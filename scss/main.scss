@@ -1,0 +1,29 @@
+body {
+    font-family: Ubuntu;
+    color: #404040;
+}
+
+header {
+
+}
+
+h1 {
+    display:inline-block;
+    font-family: Ubuntu;
+    font-weight: normal;
+    text-align:center;
+    width: 70%;
+}
+
+#address {
+    display:inline-block;
+    position:absolute;
+    color: #808080;
+    right: 20px;
+    font-size: 0.9em;
+}
+
+#address li {
+        display:block;
+}
+
