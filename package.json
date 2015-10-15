@@ -11,7 +11,8 @@
   "dependencies": {
     "gulp-markdown": "~1.1.0",
     "gulp": "~3.9.0",
-    "gulp-concat": "~2.6.0"
+    "gulp-concat": "~2.6.0",
+    "gulp-html-pdf": "~0.2.0"
   },
   "devDependencies": {
     "browser-sync": "~2.9.11",

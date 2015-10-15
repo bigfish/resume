@@ -3,6 +3,7 @@ var markdown = require('gulp-markdown');
 var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
+var pdf = require('gulp-html-pdf');
 
 //compile all markdown files to html
 gulp.task('markdown', function() {
@@ -12,7 +13,11 @@ gulp.task('markdown', function() {
 });
 
 gulp.task('concat', function () {
-    return gulp.src('html/*.html')
+return gulp.src([
+'html/head.html',
+'html/header.html',
+'html/main.html',
+'html/foot.html'], {base: 'html/'})
         .pipe(concat('index.html'))
         .pipe(gulp.dest('dist'));
 });
@@ -45,3 +50,4 @@ gulp.task('watch', function() {
 
 
 gulp.task('default', ['build', 'watch']);
+//note - to generate PDF, just select 'print' in Chrome, as print to pdf
