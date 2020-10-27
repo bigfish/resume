@@ -1,9 +1,9 @@
 
-With over a decade of experience making websites and web applications, I'm passionate
+With many years of experience making websites and web applications, I'm passionate
 about creating high quality user experiences with performant, tested, and scalable code.
-I'm most experienced with enterprise single page applications connected to REST APIs.
-I thrive on creating user interfaces that look good and work well. For fun I make games,
-mobile web apps, and explore emerging technologies.
+I'm most experienced with single page applications connected to REST APIs.
+I thrive on creating user interfaces that look good and work well. I enjoy learning and 
+trying out emerging web technologies, in order to stay up to date and use them where appropriate.
 
 ## Skills
 
@@ -11,11 +11,14 @@ mobile web apps, and explore emerging technologies.
 
 * Deep experience and knowledge of modern frontend development
 * Experience developing large, complex, performant yet scalable JavaScript applications
-* Experience with many JavaScript libraries and frameworks (eg React, Angular, Backbone)
-* Advanced CSS knowledge, eg. responsive design, cross-browser concerns
+* Comfortable using latest JavaScript features, eg. async/await, destructuring, decorators, etc.
+* Experience with many JavaScript libraries and frameworks (eg React, Redux, Angular, Backbone)
+* Advanced CSS knowledge, eg. responsive design, cross-browser concerns, Flexbox, Grid
 * Experience with internationalization and localization
-* Use of Node.js based development and build tools, eg Webpack
+* Use and configuration of development and build tools: ESLint, Webpack, Babel
 * Years of experience writing unit and functional tests for frontend applications
+* Knowledge of frontend performance optimization and cacheing (eg. Service Workers)
+* Attention to detail of appearance, interaction, and motion to improve user experience
 
 ### Backend
 
@@ -23,37 +26,47 @@ mobile web apps, and explore emerging technologies.
 * Knowledge of HTTP, Cookies, authentication and related web-security issues
 * Understanding of relational database design and NoSQL databases
 * Knowledge of RESTful API design patterns
-
-### User Experience Design
-
-* Good understanding of UX design principles
-* Attention to detail of appearance and interaction to improve user experience
-* Graphic design and production with Adobe Creative Suite, and Sketch
-
-### Programming Craft
-
-* Disciplined about writing tests
-* Effective use of version control (especially Git)
-* Experience with Agile principles and methodologies
-* Good understanding of programming principles and best-practices
-* Use of build tools to automate linting, testing, optimization
-* Knowledge of functional, object oriented, and other programming paradigms
-* Have learned many languages over the years, JavaScript is my specialty
-* Enjoy learning new web technologies as they emerge
+* Understanding of GraphQL
+* Nginx configuration for cacheing, proxying
 
 ### General
 
-* Good communication and collaboration skills
-* Knowledge of Unix, Bash shell and command line
-* Vim expert -- have written several plugins
+* Great communication and collaboration skills
+* Disciplined about writing tests
+* Experience with Agile principles and methodologies, mostly Scrum
+* Good understanding of programming principles and best-practices
+* Use of build tools to automate linting, testing, optimization
+* Knowledge of functional, object oriented, and other programming paradigms
+* Extensive experience with Git and Github
+* Use of advanced code editor(s) and features to improve productivity
+* Have learned many languages over the years, JavaScript is my specialty
+* Knowledge of Unix, Bash shell scripting and command line tools
 * Learned Dvorak keyboard layout to improve typing performance
 * Built my own keyboard!
 
 ## Employment Experience
 
-### Fullstack Developer, eSentire (2016 - present)
+### Software Developer, MappedIn (2018 - present)
 
-* Developed frontend of new customer facing Portal with ES6, React, Redux
+* Fronted dev on the Consumer team, focusing on flagship Mappedin Directory (Kiosk)
+* Worked on very large frontend application, with many screens and states
+* Manage content in multiple languages, using i18next, Phraseapp
+* Implemented new UI features based on high fidelity UX designs 
+* Used React, MobX, ThreeJS, ES6, KefirJS, SASS
+* Tracked errors in production with Sentry, determined root causes
+* Wrote unit tests using Jest & React Testing Library
+* Fixed bugs in legacy code, adding tests and refactoring
+* Used storybook to document React component library
+* Contributed extensively to new multifloor wayfinding experience
+* Contributed new features and bug fixes to Mappedin 3D Map SDK
+* Maintained and updated Webpack, ESLint, Jenkins config
+* Participated in company hackathons to prototype new concepts
+* Groomed, estimated, and updated stories in JIRA
+* Collaborated with cross-functional team using Scrum agile methodology
+
+### Fullstack Developer, eSentire (2016 - 2018)
+
+* Developed frontend of new customer-facing Portal with ES6, React, Redux
 * Developed interactive datavisualizations with D3.js
 * Collaborated with others to create common component library
 * Wrote unit tests for new code to ensure high level of coverage
@@ -67,8 +80,7 @@ mobile web apps, and explore emerging technologies.
 * Developed many new UI features according to UX specifications
 * Significantly improved performance of load time and navigation
 * Cleared backlog of 50+ legacy bugs in UI
-* Wrote 800+ unit tests, covering new features
-* Used Powershell for Windows scripting and build automation
+* Wrote unit tests covering new features
 * Developed custom interactive components using in-house JavaScript framework
 * Developed UI features with externalized strings for L10N, and adjust layout for RTL locales
 
